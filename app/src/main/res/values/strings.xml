@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Klingel - Forstweg 46</string>
+    <string name="title_activity_main">Klingel</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

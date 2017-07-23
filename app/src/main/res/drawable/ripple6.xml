@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/whitesmoke"
+
+    >
+    <!--RIPPLE color here ^^^ -->
+
+
+    <!--BACKGROUND Color/Shape-->
+    <item>
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:centerX="60%"
+
+                android:startColor="#FFFFC107"
+                android:endColor="#FFFFA000"
+                />
+
+            <!--Working Gradient red-blue-->
+            <!--android:startColor="#FFEA6060"-->
+            <!--android:endColor="#FF7117EA"-->
+
+
+
+            <!--android:color="?android:colorAccent-->
+            <!--android:centerColor="#FFE85F61"-->
+
+            <corners android:radius="2dp" />
+
+            <!--<padding-->
+                <!--android:left="3dip"-->
+                <!--android:right="3dip"-->
+                <!--/>-->
+        </shape>
+    </item>
+
+
+</ripple>

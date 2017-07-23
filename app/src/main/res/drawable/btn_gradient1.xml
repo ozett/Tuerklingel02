@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/yourdrawable" />-->
+
+    <!--<item android:state_enabled="false" android:color="@color/yellow" />-->
+
+    <!--<item android:state_pressed="true" android:color="@color/yellow" />-->
+    <item android:state_pressed="true" />
+
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <corners android:radius="2dp" />
+            <padding
+            android:left="8dip"
+            android:top="8dip"
+            android:right="8dip"
+            android:bottom="8dip" />
+
+            <solid android:color="@color/teal" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/yellow" />
+        </shape>
+
+
+    <!--<item android:state_pressed="true"
+            android:angle="270"
+            android:startColor="#a6d6fc"
+            android:endColor="#0e6cb6"
+            />
+-->
+    <!--<item android:state_focused="true" android:color="@android:color/holo_green_dark" />-->
+    <!--<item android:state_selected="true" android:color="@android:color/holo_purple" />-->
+
+    <item android:color="@color/Dark_Violet"/>
+
+
+
+</selector>

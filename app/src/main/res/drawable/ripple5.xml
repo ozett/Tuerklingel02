@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/amazonarrow">
+        <!--RIPPLE color here-->
+
+    <!--android:color="@color/whitesmoke">-->
+    <!--android:color="#FFFF0000"> &lt;!&ndash; The ripple will be red &ndash;&gt;-->
+    <!--android:color="?android:colorControlHighlight">-->
+
+
+    <!-- the normal bg color will be light grey -->
+    <!--<item>
+        &lt;!&ndash;<color android:color="#FFDDDDDD" />&ndash;&gt;
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <gradient
+                android:type="linear"
+                android:startColor="#FF5B247A"
+                android:endColor="#FF1BCEDF"
+                android:angle="270"
+                />
+            <corners android:radius="2dp" />
+
+            <padding
+                android:left="30dip"
+                android:right="30dip"
+                />
+        </shape>
+    </item>-->
+    <!--<item android:id="@android:id/mask">-->
+    <!--<shape android:shape="oval">
+        <solid android:color="?android:colorAccent" />
+        </shape>-->
+
+    <!-- make sure the ripple doesn't exceed the bounds -->
+    <!--<item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            &lt;!&ndash;<solid android:color="?android:colorAccent" />&ndash;&gt;
+            <solid android:color="#FF0DFF00"/>
+            <padding
+                android:left="30dip"
+                android:right="30dip"
+                />
+        </shape>
+    </item>-->
+
+
+    <!--BACKGROUND Color/Shape-->
+    <item>
+        <!--<color android:color="#FFDDDDDD" />-->
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:centerX="60%"
+
+                android:startColor="#FFF2F2F2"
+                android:centerColor="#FFF2F2F2"
+                android:endColor="#FFB0B0B0"
+
+                />
+
+                <!--C4C4C4"-->
+
+                <!--android:startColor="#FF5B247A"-->
+                <!--android:endColor="#FF1BCEDF"-->
+
+
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!--<padding
+        android:left="3dip"
+        android:right="3dip"
+        />-->
+
+
+    <!--&lt;!&ndash; background shape or color &ndash;&gt;-->
+    <!--<item android:drawable="@color/md_grey_200"/>-->
+
+</ripple>

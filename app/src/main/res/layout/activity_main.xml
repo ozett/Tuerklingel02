@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.olaf.tuerklingel02.MainActivity"
+    android:keepScreenOn="true"
+    android:background="@drawable/ripple5"
+
+    >
+
+    <!--android:orientation="vertical"-->
+
+    <!--Kiosk-mode: prevent screen dimminig on app-->
+    <!--android:keepScreenOn="true"-->
+
+    <ImageButton
+        android:id="@+id/buttonAmazon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="3dp"
+        android:adjustViewBounds="false"
+
+        android:background="@drawable/ripple5"
+
+        android:cropToPadding="false"
+        android:elevation="2dp"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/amaztrans2"
+        android:text="Amazon"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEGre" />
+
+
+        <!--if you're using a VectorDrawableCompat (Vector asset) you should use:
+        app:srcCompat
+        app:srcCompat="@drawable/amaztrans2"-->
+
+    <Button
+        android:id="@+id/buttonDGli"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ripple8"
+        android:paddingRight="30dp"
+        android:text="H. Henke"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textColor="@color/Alien_Green"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDGre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:drawableEnd="@android:drawable/btn_star_big_on"
+        tools:theme="@android:style/Widget.DeviceDefault.ActionButton"
+
+        />
+
+    <Button
+        android:id="@+id/buttonDGre"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/ripple7"
+        android:text="D. Grechts"
+
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEGli"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDGli" />
+
+    <Button
+        android:id="@+id/buttonEGli"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/ripple6"
+        android:text="J. Dämmer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEGre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDGre" />
+
+    <Button
+        android:id="@+id/buttonEGre"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        android:layout_marginTop="3dp"
+        android:background="@drawable/ripple4"
+        android:text="O. Zehner"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAmazon"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEGli" />
+
+
+    <!--android:theme="@style/ButtonGradient1"-->
+
+
+</android.support.constraint.ConstraintLayout>
